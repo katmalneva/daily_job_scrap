@@ -1,6 +1,7 @@
 djs/
 .env
-.state/
+.state/*
+!.state/seen_jobs.json
 __pycache__/
 *.pyc
 *.pyo

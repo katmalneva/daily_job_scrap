@@ -18,7 +18,7 @@ from .scrapers.base import Job
 
 log = logging.getLogger(__name__)
 
-TTL_DAYS = 7
+TTL_DAYS = 30
 DEFAULT_PATH = Path(".state/seen_jobs.json")
 
 
